@@ -31,7 +31,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Dier</span> Artificial intelligence
+                    <i class="fa fa-play-circle"></i>  <span class="light">Dier</span> Artifiacial intelligence
                 </a>
             </div>
 
@@ -43,7 +43,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">About Us</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#download">Tank Games</a>
@@ -85,9 +85,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About dier</h2>
-                <p>dier is an AI development team of two, <a href="https://github.com/dinal24">Dinal Kurukulasooriya</a> and <a href="https://github.com/ecr666">Eranda Rajapakse</a>. We are a team of undergraduates from University of Moratuwa who are passionate about immerging AI.</p>
-                <p>This time Dier has developed quality AI for the autonomous multiplayer tank game. </p>
-                <p>There will be four autonomous players seeking glory. Remember to Cheer up  dier!</p>
+                <p>dier is an AI development team of two, <a href="https://github.com/dinal24">Dinal Kurukulasooriya</a> and <a href="https://github.com/ecr666">Eranda Rajapakshe</a>. We are a team of undergraduates from University of Moratuwa who are passionate about immerging AI.</p>
+                <p>This time we have developed quality AI for the autonomous multiplayer tank game. There will be many autonomous players seeking glory. Remember to Cheer up dier!</p>
             </div>
         </div>
     </section>
@@ -97,8 +96,43 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Tank Games</h2>
+					<p></p>
                     <p>Dier tank will be released soon! If you feel confident challenge us! Lets meet up in the arena!</p>
-                    <a href="http://startbootstrap.com/grayscale" class="btn btn-default btn-lg">Challenge</a>
+					<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Challenge</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<form method="POST" name="contactform" action="contact-form-handler.php"> 
+								  
+									<div class="form-group">
+										<label for="exampleInputname">Name</label>
+										<input type="text" class="form-control" name="name" placeholder="Enter your Name">
+									</div>
+									<div class="form-group">
+									<label for="exampleInputemail">Email</label>
+									<label for='email'>Email Address:</label> <br>
+									<input type="email" class="form-control" name="email" placeholder="Enter email"> 
+									</div>
+									<div class="form-group">
+									<label for="exampleInputComments">Comments</label>
+									<label for='message'>Message:</label> <br>
+									<textarea name="message" class="form-control" placeholder="Comments..."></textarea>
+									</div>
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								  <button type="submit" class="btn btn-primary">Submit</button>
+																	  
+								  
+								</form>
+							<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+							<!--<button type="button" class="btn btn-primary">Save changes</button>-->
+						  </div>
+						</div>
+					  </div>
+					</div>
+					
                 </div>
             </div>
         </div>
@@ -112,11 +146,11 @@
                 <p>kasundinal@gmail.com</p>
                 <p>erandacr@gmail.com</p>
                 <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    <li><a href="https://twitter.com/dier_AI" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li><a href="https://github.com/dinal24/Dier" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
-                    <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    <li><a href="https://plus.google.com/114029505921724824869/about" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
